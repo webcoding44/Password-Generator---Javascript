@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <style>
+         @font-face { font-family: roboto; src: url('/Fonts/Roboto-Regular.ttf');}
+    </style>
+</head>
+<body class="m-0 p-0 border-box bg-[#002339] text-[#fff] overflow-hidden font-roboto">
+    <div class="m-[12%] w-[90%] max-w-[700px] ">
+        <h1 class="font-medium text-[45px]">Generate a <span>Random Password</span></h1>
+        <div class="w-full mt-[50px] mb-[30px] bg-[#fff] text-[#333] flex items-center justify-between rounded-[5px] ">
+            <input class="border-none outline-none text-2xl py-[25px] px-[35px]" type="text" id="password" placeholder="password">
+            <img class="mr-5 w-[28px]" id="copy" src="Images/copy.png" alt="">
+        </div>
+        <button id="btn" class="border-none outline-none bg-[#019f55] text-[#fff] text-[22px] font-extralight flex items-center justify-center py-[5px] px-[15px] rounded-[5px] cursor-pointer"><img src="Images/generate.png" alt=""> Generate Password</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
